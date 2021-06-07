@@ -20,11 +20,11 @@ Crie um algoritimo que transforme as notas do sistema númerico para sistema de 
 // let notaAluno =  78
 function getScore(notaAluno) {
     let notaA = notaAluno >= 90 && notaAluno <= 100
-let notaB = notaAluno >= 80 && notaAluno <= 89
-let notaC = notaAluno >= 70 && notaAluno <= 79
-let notaD = notaAluno >= 60 && notaAluno <= 69
-let notaE = notaAluno >= 1 && notaAluno <= 59
-let notaFinal
+    let notaB = notaAluno >= 80 && notaAluno <= 89
+    let notaC = notaAluno >= 70 && notaAluno <= 79
+    let notaD = notaAluno >= 60 && notaAluno <= 69
+    let notaE = notaAluno >= 1 && notaAluno <= 59
+    let notaFinal
 
     if(notaA) {
         notaFinal = 'A'
